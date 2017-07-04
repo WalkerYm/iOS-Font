@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B606E4B1F0A2CDE00E5C54C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B606E4A1F0A2CDE00E5C54C /* main.m */; };
+		3B606E4E1F0A2CDE00E5C54C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B606E4D1F0A2CDE00E5C54C /* AppDelegate.m */; };
+		3B606E541F0A2CDE00E5C54C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B606E521F0A2CDE00E5C54C /* Main.storyboard */; };
+		3B606E561F0A2CDE00E5C54C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B606E551F0A2CDE00E5C54C /* Assets.xcassets */; };
+		3B606E591F0A2CDE00E5C54C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B606E571F0A2CDE00E5C54C /* LaunchScreen.storyboard */; };
+		3B606E641F0A2CDE00E5C54C /* WYM_Font_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B606E631F0A2CDE00E5C54C /* WYM_Font_DemoTests.m */; };
+		3B606E6F1F0A2CDE00E5C54C /* WYM_Font_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B606E6E1F0A2CDE00E5C54C /* WYM_Font_DemoUITests.m */; };
+		3B606E7E1F0A2D0F00E5C54C /* WYMMainTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B606E7D1F0A2D0F00E5C54C /* WYMMainTableVC.m */; };
+		3B606E831F0A2E4700E5C54C /* WYMSystemFontVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B606E821F0A2E4700E5C54C /* WYMSystemFontVC.m */; };
+		3B606E861F0A2E6600E5C54C /* WYMCustomFontVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B606E851F0A2E6600E5C54C /* WYMCustomFontVC.m */; };
+		3B606E9E1F0A490300E5C54C /* boston.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B606E971F0A490300E5C54C /* boston.ttf */; };
+		3B606E9F1F0A490300E5C54C /* Bronx Bystreets.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B606E981F0A490300E5C54C /* Bronx Bystreets.ttf */; };
+		3B606EA01F0A490300E5C54C /* D Day Stencil.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B606E991F0A490300E5C54C /* D Day Stencil.ttf */; };
+		3B606EA11F0A490300E5C54C /* GrenadeStencil_FREE_FOR_PERSONAL_USE_ONLY.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B606E9A1F0A490300E5C54C /* GrenadeStencil_FREE_FOR_PERSONAL_USE_ONLY.ttf */; };
+		3B606EA21F0A490300E5C54C /* Top Secret Stamp.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B606E9B1F0A490300E5C54C /* Top Secret Stamp.ttf */; };
+		3B606EA31F0A490300E5C54C /* Urban.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3B606E9C1F0A490300E5C54C /* Urban.ttf */; };
+		3B606EA41F0A490300E5C54C /* WarWound.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3B606E9D1F0A490300E5C54C /* WarWound.otf */; };
+		3B606EA61F0A4F6500E5C54C /* WenYue.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3B606EA51F0A4F5B00E5C54C /* WenYue.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B606E601F0A2CDE00E5C54C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B606E3E1F0A2CDE00E5C54C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B606E451F0A2CDE00E5C54C;
+			remoteInfo = WYM_Font_Demo;
+		};
+		3B606E6B1F0A2CDE00E5C54C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B606E3E1F0A2CDE00E5C54C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B606E451F0A2CDE00E5C54C;
+			remoteInfo = WYM_Font_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B606E461F0A2CDE00E5C54C /* WYM_Font_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WYM_Font_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B606E4A1F0A2CDE00E5C54C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B606E4C1F0A2CDE00E5C54C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B606E4D1F0A2CDE00E5C54C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B606E531F0A2CDE00E5C54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B606E551F0A2CDE00E5C54C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B606E581F0A2CDE00E5C54C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3B606E5A1F0A2CDE00E5C54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B606E5F1F0A2CDE00E5C54C /* WYM_Font_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYM_Font_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B606E631F0A2CDE00E5C54C /* WYM_Font_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYM_Font_DemoTests.m; sourceTree = "<group>"; };
+		3B606E651F0A2CDE00E5C54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B606E6A1F0A2CDE00E5C54C /* WYM_Font_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WYM_Font_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B606E6E1F0A2CDE00E5C54C /* WYM_Font_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WYM_Font_DemoUITests.m; sourceTree = "<group>"; };
+		3B606E701F0A2CDE00E5C54C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3B606E7C1F0A2D0F00E5C54C /* WYMMainTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMMainTableVC.h; sourceTree = "<group>"; };
+		3B606E7D1F0A2D0F00E5C54C /* WYMMainTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMMainTableVC.m; sourceTree = "<group>"; };
+		3B606E811F0A2E4700E5C54C /* WYMSystemFontVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMSystemFontVC.h; sourceTree = "<group>"; };
+		3B606E821F0A2E4700E5C54C /* WYMSystemFontVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMSystemFontVC.m; sourceTree = "<group>"; };
+		3B606E841F0A2E6600E5C54C /* WYMCustomFontVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYMCustomFontVC.h; sourceTree = "<group>"; };
+		3B606E851F0A2E6600E5C54C /* WYMCustomFontVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYMCustomFontVC.m; sourceTree = "<group>"; };
+		3B606E971F0A490300E5C54C /* boston.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = boston.ttf; sourceTree = "<group>"; };
+		3B606E981F0A490300E5C54C /* Bronx Bystreets.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bronx Bystreets.ttf"; sourceTree = "<group>"; };
+		3B606E991F0A490300E5C54C /* D Day Stencil.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "D Day Stencil.ttf"; sourceTree = "<group>"; };
+		3B606E9A1F0A490300E5C54C /* GrenadeStencil_FREE_FOR_PERSONAL_USE_ONLY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GrenadeStencil_FREE_FOR_PERSONAL_USE_ONLY.ttf; sourceTree = "<group>"; };
+		3B606E9B1F0A490300E5C54C /* Top Secret Stamp.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Top Secret Stamp.ttf"; sourceTree = "<group>"; };
+		3B606E9C1F0A490300E5C54C /* Urban.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Urban.ttf; sourceTree = "<group>"; };
+		3B606E9D1F0A490300E5C54C /* WarWound.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WarWound.otf; sourceTree = "<group>"; };
+		3B606EA51F0A4F5B00E5C54C /* WenYue.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WenYue.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B606E431F0A2CDE00E5C54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B606E5C1F0A2CDE00E5C54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B606E671F0A2CDE00E5C54C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B606E3D1F0A2CDE00E5C54C = {
+			isa = PBXGroup;
+			children = (
+				3B606E481F0A2CDE00E5C54C /* WYM_Font_Demo */,
+				3B606E621F0A2CDE00E5C54C /* WYM_Font_DemoTests */,
+				3B606E6D1F0A2CDE00E5C54C /* WYM_Font_DemoUITests */,
+				3B606E471F0A2CDE00E5C54C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B606E471F0A2CDE00E5C54C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B606E461F0A2CDE00E5C54C /* WYM_Font_Demo.app */,
+				3B606E5F1F0A2CDE00E5C54C /* WYM_Font_DemoTests.xctest */,
+				3B606E6A1F0A2CDE00E5C54C /* WYM_Font_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B606E481F0A2CDE00E5C54C /* WYM_Font_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3B606E4C1F0A2CDE00E5C54C /* AppDelegate.h */,
+				3B606E4D1F0A2CDE00E5C54C /* AppDelegate.m */,
+				3B606E7C1F0A2D0F00E5C54C /* WYMMainTableVC.h */,
+				3B606E7D1F0A2D0F00E5C54C /* WYMMainTableVC.m */,
+				3B606E521F0A2CDE00E5C54C /* Main.storyboard */,
+				3B606E801F0A2E3100E5C54C /* SystemFont */,
+				3B606E7F1F0A2E3100E5C54C /* CustomFont */,
+				3B606E551F0A2CDE00E5C54C /* Assets.xcassets */,
+				3B606E571F0A2CDE00E5C54C /* LaunchScreen.storyboard */,
+				3B606E5A1F0A2CDE00E5C54C /* Info.plist */,
+				3B606E491F0A2CDE00E5C54C /* Supporting Files */,
+			);
+			path = WYM_Font_Demo;
+			sourceTree = "<group>";
+		};
+		3B606E491F0A2CDE00E5C54C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B606E4A1F0A2CDE00E5C54C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B606E621F0A2CDE00E5C54C /* WYM_Font_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B606E631F0A2CDE00E5C54C /* WYM_Font_DemoTests.m */,
+				3B606E651F0A2CDE00E5C54C /* Info.plist */,
+			);
+			path = WYM_Font_DemoTests;
+			sourceTree = "<group>";
+		};
+		3B606E6D1F0A2CDE00E5C54C /* WYM_Font_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3B606E6E1F0A2CDE00E5C54C /* WYM_Font_DemoUITests.m */,
+				3B606E701F0A2CDE00E5C54C /* Info.plist */,
+			);
+			path = WYM_Font_DemoUITests;
+			sourceTree = "<group>";
+		};
+		3B606E7F1F0A2E3100E5C54C /* CustomFont */ = {
+			isa = PBXGroup;
+			children = (
+				3B606E961F0A48F700E5C54C /* Font */,
+				3B606E841F0A2E6600E5C54C /* WYMCustomFontVC.h */,
+				3B606E851F0A2E6600E5C54C /* WYMCustomFontVC.m */,
+			);
+			path = CustomFont;
+			sourceTree = "<group>";
+		};
+		3B606E801F0A2E3100E5C54C /* SystemFont */ = {
+			isa = PBXGroup;
+			children = (
+				3B606E811F0A2E4700E5C54C /* WYMSystemFontVC.h */,
+				3B606E821F0A2E4700E5C54C /* WYMSystemFontVC.m */,
+			);
+			path = SystemFont;
+			sourceTree = "<group>";
+		};
+		3B606E961F0A48F700E5C54C /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				3B606EA51F0A4F5B00E5C54C /* WenYue.otf */,
+				3B606E971F0A490300E5C54C /* boston.ttf */,
+				3B606E981F0A490300E5C54C /* Bronx Bystreets.ttf */,
+				3B606E991F0A490300E5C54C /* D Day Stencil.ttf */,
+				3B606E9A1F0A490300E5C54C /* GrenadeStencil_FREE_FOR_PERSONAL_USE_ONLY.ttf */,
+				3B606E9B1F0A490300E5C54C /* Top Secret Stamp.ttf */,
+				3B606E9C1F0A490300E5C54C /* Urban.ttf */,
+				3B606E9D1F0A490300E5C54C /* WarWound.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B606E451F0A2CDE00E5C54C /* WYM_Font_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B606E731F0A2CDE00E5C54C /* Build configuration list for PBXNativeTarget "WYM_Font_Demo" */;
+			buildPhases = (
+				3B606E421F0A2CDE00E5C54C /* Sources */,
+				3B606E431F0A2CDE00E5C54C /* Frameworks */,
+				3B606E441F0A2CDE00E5C54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WYM_Font_Demo;
+			productName = WYM_Font_Demo;
+			productReference = 3B606E461F0A2CDE00E5C54C /* WYM_Font_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B606E5E1F0A2CDE00E5C54C /* WYM_Font_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B606E761F0A2CDE00E5C54C /* Build configuration list for PBXNativeTarget "WYM_Font_DemoTests" */;
+			buildPhases = (
+				3B606E5B1F0A2CDE00E5C54C /* Sources */,
+				3B606E5C1F0A2CDE00E5C54C /* Frameworks */,
+				3B606E5D1F0A2CDE00E5C54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B606E611F0A2CDE00E5C54C /* PBXTargetDependency */,
+			);
+			name = WYM_Font_DemoTests;
+			productName = WYM_Font_DemoTests;
+			productReference = 3B606E5F1F0A2CDE00E5C54C /* WYM_Font_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3B606E691F0A2CDE00E5C54C /* WYM_Font_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B606E791F0A2CDE00E5C54C /* Build configuration list for PBXNativeTarget "WYM_Font_DemoUITests" */;
+			buildPhases = (
+				3B606E661F0A2CDE00E5C54C /* Sources */,
+				3B606E671F0A2CDE00E5C54C /* Frameworks */,
+				3B606E681F0A2CDE00E5C54C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B606E6C1F0A2CDE00E5C54C /* PBXTargetDependency */,
+			);
+			name = WYM_Font_DemoUITests;
+			productName = WYM_Font_DemoUITests;
+			productReference = 3B606E6A1F0A2CDE00E5C54C /* WYM_Font_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B606E3E1F0A2CDE00E5C54C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = WalkerYm;
+				TargetAttributes = {
+					3B606E451F0A2CDE00E5C54C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					3B606E5E1F0A2CDE00E5C54C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B606E451F0A2CDE00E5C54C;
+					};
+					3B606E691F0A2CDE00E5C54C = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3B606E451F0A2CDE00E5C54C;
+					};
+				};
+			};
+			buildConfigurationList = 3B606E411F0A2CDE00E5C54C /* Build configuration list for PBXProject "WYM_Font_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B606E3D1F0A2CDE00E5C54C;
+			productRefGroup = 3B606E471F0A2CDE00E5C54C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B606E451F0A2CDE00E5C54C /* WYM_Font_Demo */,
+				3B606E5E1F0A2CDE00E5C54C /* WYM_Font_DemoTests */,
+				3B606E691F0A2CDE00E5C54C /* WYM_Font_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B606E441F0A2CDE00E5C54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B606EA61F0A4F6500E5C54C /* WenYue.otf in Resources */,
+				3B606E591F0A2CDE00E5C54C /* LaunchScreen.storyboard in Resources */,
+				3B606EA11F0A490300E5C54C /* GrenadeStencil_FREE_FOR_PERSONAL_USE_ONLY.ttf in Resources */,
+				3B606E561F0A2CDE00E5C54C /* Assets.xcassets in Resources */,
+				3B606E541F0A2CDE00E5C54C /* Main.storyboard in Resources */,
+				3B606EA31F0A490300E5C54C /* Urban.ttf in Resources */,
+				3B606E9F1F0A490300E5C54C /* Bronx Bystreets.ttf in Resources */,
+				3B606EA41F0A490300E5C54C /* WarWound.otf in Resources */,
+				3B606E9E1F0A490300E5C54C /* boston.ttf in Resources */,
+				3B606EA21F0A490300E5C54C /* Top Secret Stamp.ttf in Resources */,
+				3B606EA01F0A490300E5C54C /* D Day Stencil.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B606E5D1F0A2CDE00E5C54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B606E681F0A2CDE00E5C54C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B606E421F0A2CDE00E5C54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B606E4E1F0A2CDE00E5C54C /* AppDelegate.m in Sources */,
+				3B606E4B1F0A2CDE00E5C54C /* main.m in Sources */,
+				3B606E831F0A2E4700E5C54C /* WYMSystemFontVC.m in Sources */,
+				3B606E861F0A2E6600E5C54C /* WYMCustomFontVC.m in Sources */,
+				3B606E7E1F0A2D0F00E5C54C /* WYMMainTableVC.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B606E5B1F0A2CDE00E5C54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B606E641F0A2CDE00E5C54C /* WYM_Font_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B606E661F0A2CDE00E5C54C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B606E6F1F0A2CDE00E5C54C /* WYM_Font_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B606E611F0A2CDE00E5C54C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B606E451F0A2CDE00E5C54C /* WYM_Font_Demo */;
+			targetProxy = 3B606E601F0A2CDE00E5C54C /* PBXContainerItemProxy */;
+		};
+		3B606E6C1F0A2CDE00E5C54C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B606E451F0A2CDE00E5C54C /* WYM_Font_Demo */;
+			targetProxy = 3B606E6B1F0A2CDE00E5C54C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B606E521F0A2CDE00E5C54C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B606E531F0A2CDE00E5C54C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B606E571F0A2CDE00E5C54C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B606E581F0A2CDE00E5C54C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B606E711F0A2CDE00E5C54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3B606E721F0A2CDE00E5C54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B606E741F0A2CDE00E5C54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYM_Font_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simpusun.www.WYM-Font-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3B606E751F0A2CDE00E5C54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WYM_Font_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simpusun.www.WYM-Font-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3B606E771F0A2CDE00E5C54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYM_Font_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simpusun.www.WYM-Font-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYM_Font_Demo.app/WYM_Font_Demo";
+			};
+			name = Debug;
+		};
+		3B606E781F0A2CDE00E5C54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WYM_Font_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simpusun.www.WYM-Font-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WYM_Font_Demo.app/WYM_Font_Demo";
+			};
+			name = Release;
+		};
+		3B606E7A1F0A2CDE00E5C54C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WYM_Font_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simpusun.www.WYM-Font-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WYM_Font_Demo;
+			};
+			name = Debug;
+		};
+		3B606E7B1F0A2CDE00E5C54C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WYM_Font_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simpusun.www.WYM-Font-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WYM_Font_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B606E411F0A2CDE00E5C54C /* Build configuration list for PBXProject "WYM_Font_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B606E711F0A2CDE00E5C54C /* Debug */,
+				3B606E721F0A2CDE00E5C54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B606E731F0A2CDE00E5C54C /* Build configuration list for PBXNativeTarget "WYM_Font_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B606E741F0A2CDE00E5C54C /* Debug */,
+				3B606E751F0A2CDE00E5C54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B606E761F0A2CDE00E5C54C /* Build configuration list for PBXNativeTarget "WYM_Font_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B606E771F0A2CDE00E5C54C /* Debug */,
+				3B606E781F0A2CDE00E5C54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B606E791F0A2CDE00E5C54C /* Build configuration list for PBXNativeTarget "WYM_Font_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B606E7A1F0A2CDE00E5C54C /* Debug */,
+				3B606E7B1F0A2CDE00E5C54C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B606E3E1F0A2CDE00E5C54C /* Project object */;
+}
